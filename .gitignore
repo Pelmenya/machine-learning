@@ -1,0 +1,33 @@
+# Бэкапы транскриптов (создаются PreCompact-хуком) — не коммитим
+.claude/backups/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Сырые датасеты (большие) — папку держим, содержимое не коммитим
+data/raw/*
+!data/raw/.gitkeep
+
+# Локальные настройки Claude Code
+.claude/settings.local.json
+
+# Playwright артефакты
+.playwright-mcp/
+
+# Материалы Яндекс Практикума — держим локально, в публичный репо не коммитим
+# (их копирайт; наш собственный конспект ML-инженер_программа.md остаётся в репо)
+docs/syllabus/
+docs/screenshots/
+
+# ВАЖНО: НЕ игнорируем — это часть проекта и должно коммититься:
+#   .claude/settings.json
+#   .claude/hooks/
+#   .claude/state/HANDOFF.md
+
+# Локальные детальные заметки (не публикуем)
+*.local.md

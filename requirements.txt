@@ -1,0 +1,8 @@
+# Базовый ML-стек. Точные версии зафиксируем после установки:
+#   ./.venv/Scripts/python.exe -m pip freeze > requirements.lock.txt
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+jupyter
